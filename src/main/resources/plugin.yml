@@ -1,0 +1,17 @@
+name: AltsFinder
+main: tw.mics.spigot.plugin.altsfinder.AltsFinder
+version: ${project.version}
+description: ${project.description}
+author: Mics
+website: https://mics.tw
+
+commands:
+  alts:
+    description: Report player alts.
+    usage: /airdrop <name>
+    permission: altsfinder.use
+    
+permissions:
+  altsfinder.use:
+    description: this can reload cupboard config
+    default: op
