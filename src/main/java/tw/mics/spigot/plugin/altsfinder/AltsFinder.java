@@ -42,7 +42,7 @@ public class AltsFinder extends JavaPlugin implements Listener {
     @EventHandler
     public void PlayerLoginEvent(PlayerLoginEvent e){
         String uuid = e.getPlayer().getUniqueId().toString();
-        String ip = e.getAddress().getHostName();
+        String ip = e.getAddress().getHostAddress();
         Bukkit.getScheduler().scheduleAsyncDelayedTask(this, new Runnable(){
             @Override
             public void run() {

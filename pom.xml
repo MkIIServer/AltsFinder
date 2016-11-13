@@ -6,7 +6,7 @@
     <groupId>tw.mics.spigot.plugin.altsfinder</groupId>
     <artifactId>AltsFinder</artifactId>
     <packaging>jar</packaging>
-    <version>0.1</version>
+    <version>0.2</version>
     <name>AltsFinder</name>
     <url>http://mics.tw</url>
     <description>Find alts accounts.</description>
